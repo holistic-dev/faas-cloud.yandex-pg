@@ -1,0 +1,38 @@
+{
+  "name": "@holistic.dev/faas-cloud.yandex-pg",
+  "version": "1.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "Anton Revyako",
+    "email": "anton.revyako@gmail.com"
+  },
+  "engines": {
+    "node": ">=12.0"
+  },
+  "license": "ISC",
+  "description": "holistic.dev cloud function for Yandex.Cloud integration",
+  "keywords": [
+    "holistic.dev",
+    "yandex.cloud",
+    "cloud function",
+    "faas",
+    "postgres",
+    "postgresql",
+    "sql",
+    "linter",
+    "analysis",
+    "static analysis"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/holistic-dev/faas-cloud.yandex-pg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/holistic-dev/faas-cloud.yandex-pg/issues"
+  },
+  "homepage": "https://github.com/holistic-dev/faas-cloud.yandex-pg#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "pg": "^8.3.3"
+  }
+}
