@@ -66,18 +66,15 @@ exports.handler = async function (event, context) {
           console.log(response.data);
         })
         .catch(function (error) {
-          console.error('axios error:');
-          console.error(error);
+          console.error('api.holistic.dev error:');
+          console.error(JSON.stringify(error.response.data, null, 2));
         });
         return;
       }
-      console.error('query error:');
-      console.error(err);
-
       client.end();
+      console.error('db query error:', err.message);
     });
   }catch(error){
-    console.error('error:');
-    console.error(error);
+    console.error('core error: ', error.message)
   }
 };
